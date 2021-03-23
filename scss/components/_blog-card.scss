@@ -1,0 +1,44 @@
+.blog-card {
+	height: 500px;
+	width: 100%;
+	background: #fff;
+	position: relative;
+	img {
+		width: calc(100% + 20px);
+		height: 200px;
+		margin: 20px -10px 0 -10px;
+	}
+	.date {
+		margin: 20px 0 0 20px;
+		font-weight: 500;
+		color: #416073;
+	}
+	p {
+		margin: 20px 20px;
+		font-size: 18px;
+		// word-break: break-all;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+		background: rgb(109, 109, 109);
+		padding: 5px 15px;
+		font-size: 20px;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, 50%);
+	}
+	&--orange {
+		background: #fef4e7;
+		a {
+			background: #e6a147;
+		}
+	}
+	&--green {
+		background: #f0ffe9;
+		a {
+			background: #82e654;
+		}
+	}
+}

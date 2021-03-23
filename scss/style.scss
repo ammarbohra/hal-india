@@ -1,0 +1,12 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/bootstrap-edit";
+@import "base/defaults";
+
+@import "components/navbar";
+@import "components/blog-card";
+@import "components/life-card";
+
+@import "pages/home";

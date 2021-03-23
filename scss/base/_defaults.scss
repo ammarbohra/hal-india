@@ -1,0 +1,23 @@
+body {
+	background: #eee;
+}
+section {
+	padding: 80px 0;
+}
+.section-heading {
+	font-size: 40px;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 50px;
+	&::before {
+		content: "";
+		width: 10px;
+		height: 70%;
+		background: #000;
+		position: absolute;
+		bottom: 4px;
+		left: 0;
+		transform: translate(-20px, 0);
+	}
+}

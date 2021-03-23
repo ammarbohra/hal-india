@@ -1,0 +1,78 @@
+.hero-img {
+	width: 100%;
+	background-image: linear-gradient(to right, #0e315b, #113a6e);
+	&__inner {
+		height: 360px;
+		background-image: url(../../img/hero.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+}
+.hero-section {
+	h3 {
+		text-align: center;
+		font-size: 30px;
+		font-weight: 300;
+		padding-bottom: 30px;
+
+		margin-bottom: 30px;
+		position: relative;
+		&::after {
+			content: "";
+			height: 3px;
+			width: 50px;
+			background: rgb(41, 36, 27);
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translate(-50%, 0px);
+			border-radius: 5px;
+		}
+	}
+	h1 {
+		text-align: center;
+		color: #416073;
+		font-size: 50px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		margin-bottom: 30px;
+	}
+	h2 {
+		text-align: center;
+		color: rgb(141, 24, 24);
+		font-size: 40px;
+		font-weight: 400;
+		letter-spacing: 1px;
+		margin-top: 20px;
+		display: inline-block;
+		padding: 5px 10px;
+
+		position: relative;
+		&::before {
+			content: "";
+			width: 3px;
+			height: 50px;
+			background: rgb(32, 32, 32);
+			position: absolute;
+			bottom: 100%;
+			left: 50%;
+			transform: translate(-50%, 0);
+		}
+	}
+}
+.blog-more {
+	margin-top: 100px;
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 500;
+	padding: 10px 30px;
+	border-radius: 2px;
+}
+
+.life-section {
+	img {
+		max-width: 100%;
+	}
+}
